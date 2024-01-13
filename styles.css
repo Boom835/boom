@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: #FFFFFF;
   max-width: 75%;
-   align-items: center;
+  align-items: center;
 }
 
 hr {
@@ -13,23 +13,23 @@ hr {
 }
 
 header, nav, section, form, #orderSummary {
-  background-color: #4527A0;
+  background-color: #00796B; /* Green */
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #FFD700; /* Gold */
   text-align: center;
   padding: 1em;
   margin: 20px;
 }
 
 nav a, #logo a {
-  color: #FFFFFF;
+  color: #4527A0; /* Purple */
   text-decoration: none;
   margin: 0 1em;
   font-weight: bold;
 }
 
 #logo a {
-  color: #FFD700;
+  color: #FFD700; /* Gold */
   font-size: 1.5em;
 }
 
@@ -46,13 +46,13 @@ input, textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #000000;
+  border: 1px solid #4527A0; /* Purple */
   border-radius: 5px;
 }
 
 button {
-  background-color: #4527A0;
-  color: #FFFFFF;
+  background-color: #00796B; /* Green */
+  color: #FFD700; /* Gold */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-  background-color: #00796B;
+  background-color: #004C45; /* Darker Green for hover effect */
 }
 
 table {
@@ -69,14 +69,14 @@ table {
 }
 
 th, td {
-  border: 1px solid #000000;
+  border: 1px solid #4527A0; /* Purple */
   padding: 10px;
   text-align: center;
 }
 
 th {
-  background-color: #4527A0;
-  color: #FFFFFF;
+  background-color: #00796B; /* Green */
+  color: #FFD700; /* Gold */
 }
 
 input {
@@ -88,7 +88,6 @@ input {
   font-weight: bold;
 }
 
-
 #orderForm {
   display: flex;
   flex-direction: column;
@@ -96,31 +95,3 @@ input {
   max-width: 300px;
   margin: auto;
 }
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #000000;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-button {
-  background-color: #4527A0;
-  color: #FFFFFF;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #00796B;
-}
-
