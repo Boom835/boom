@@ -44,7 +44,7 @@ label {
 }
 
 input, textarea {
-  width: 100%;
+  width: 35%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #D5F0C1; /* Forms and Inputs */
@@ -55,7 +55,7 @@ input, textarea {
 
 button {
   background-color: #D5F0C1; /* Buttons */
-  color: #F9F7C9; /* Text Color */
+  color: #4F6F52; /* Text Color */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -79,7 +79,7 @@ th, td {
 
 th {
   background-color: #D5F0C1; /* Tables */
-  color: #F9F7C9; /* Text Color */
+  color: #4F6F52; /* Text Color */
 }
 
 input {
