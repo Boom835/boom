@@ -38,6 +38,6 @@ function submitOrder() {
   `;
 
   // Email functionality (Note: This is a client-side approach for educational purposes, server-side is recommended)
-  const mailtoLink = `mailto:Satoshi@nakamoto.com?subject=New Order&body=${encodeURIComponent(`Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nLocation: ${location}\nItems & Quantities:\n${items}`)}`;
+  const mailtoLink = `mailto:Boom835@proton.me?subject=New Order&body=${encodeURIComponent(`Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nLocation: ${location}\nItems & Quantities:\n${items}`)}`;
   window.location.href = mailtoLink;
 }
