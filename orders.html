@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders Page</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<hr>
+  <header>
+    <div id="logo">
+      <a href="index.html">Home</a>
+    </div>
+    <nav>
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="menu.html">Menu</a>
+       <a href="orders.html">orders</a>
+    </nav>
+  </header>
+
+  <section id="orders" class="rounded">
+    <h2>Place Your Order</h2>
+    <form id="orderForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" required>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" required>
+
+      <label for="items">Items & Quantities:</label>
+      <textarea id="items" rows="4" required></textarea>
+
+      <button type="button" onclick="submitOrder()">Submit Order</button>
+    </form>
+
+
+ <br>
+    <hr>
+    <br>
+    <div id="orderSummary" class="rounded">
+      <!-- Order summary will be displayed here -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

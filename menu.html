@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Menu Page</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<hr>
+  <header>
+    <div id="logo">
+      <a href="index.html">Home</a>
+    </div>
+    <nav>
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="menu.html">Menu</a>
+      <a href="orders.html">orders</a>
+    </nav>
+  </header>
+
+  <section id="orders" class="rounded">
+    <h2>Place Your Order</h2>
+
+
+  <form id="itemsForm" class="rounded">
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Brownie</td>
+          <td>400 Ksh</td>
+          <td><input type="number" min="0" value="0" onchange="calculateTotal(0)"></td>
+          <td id="totalBrownie">0</td>
+        </tr>
+        <tr>
+          <td>Brownie Tray (48 piece)</td>
+          <td>19,000 Ksh</td>
+          <td><input type="number" min="0" value="0" onchange="calculateTotal(1)"></td>
+          <td id="totalBrownieTray">0</td>
+        </tr>
+        <tr>
+          <td>Small Chips</td>
+          <td>50 Ksh</td>
+          <td><input type="number" min="0" value="0" onchange="calculateTotal(2)"></td>
+          <td id="totalSmallChips">0</td>
+        </tr>
+        <tr>
+          <td>Large Chips</td>
+          <td>100 Ksh</td>
+          <td><input type="number" min="0" value="0" onchange="calculateTotal(3)"></td>
+          <td id="totalLargeChips">0</td>
+        </tr>
+        <tr>
+          <td>Foreign Chips</td>
+          <td>150-500 Ksh</td>
+          <td><input type="number" min="0" value="0" onchange="calculateTotal(4)"></td>
+          <td id="totalForeignChips">0</td>
+        </tr>
+        <tr>
+          <td>Burger</td>
+          <td>2000 Ksh</td>
+          <td><input type="number" min="0" value="0" onchange="calculateTotal(5)"></td>
+          <td id="totalBurger">0</td>
+        </tr>
+        <tr>
+          <td colspan="3">Total</td>
+          <td id="finalTotal">0</td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+
+ <br>
+    <hr>
+    <br>
+    <div id="orderSummary" class="rounded">
+      <!-- Order summary will be displayed here -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

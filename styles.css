@@ -1,0 +1,77 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+header {
+  background-color: #4527A0;
+  color: #FFFFFF;
+  padding: 1em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+nav {
+  background-color: #00796B;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: bold;
+}
+
+section {
+  padding: 2em;
+  border-radius: 5px;
+}
+
+#logo {
+  text-align: center;
+  margin: 1em 0;
+}
+
+#logo a {
+  color: #FFD700;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+form {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #4527A0;
+  color: #FFFFFF;
+}
+
+input {
+  width: 50px;
+  text-align: center;
+}
+
+#finalTotal {
+  font-weight: bold;
+}
