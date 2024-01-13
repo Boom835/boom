@@ -2,10 +2,10 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #65B741; /* Background */
+  background-color: #80BCBD; /* Background */
   max-width: 75%;
   align-items: center;
-  color: #FBF6EE; /* Text Color */
+  color: #F9F7C9; /* Text Color */
 }
 
 hr {
@@ -14,23 +14,23 @@ hr {
 }
 
 header, nav, section, form, #orderSummary {
-  background-color: #C1F2B0; /* Forms and Sections */
+  background-color: #AAD9BB; /* Forms and Sections */
   border-radius: 5px;
-  color: #FBF6EE; /* Text Color */
+  color: #F9F7C9; /* Text Color */
   text-align: center;
   padding: 1em;
   margin: 20px;
 }
 
 nav a, #logo a {
-  color: #FBF6EE; /* Text Color */
+  color: #F9F7C9; /* Text Color */
   text-decoration: none;
   margin: 0 1em;
   font-weight: bold;
 }
 
 #logo a {
-  color: #FFB534; /* Banners */
+  color: #D5F0C1; /* Banners */
   font-size: 1.5em;
 }
 
@@ -47,15 +47,15 @@ input, textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #C1F2B0; /* Forms and Inputs */
+  border: 1px solid #D5F0C1; /* Forms and Inputs */
   border-radius: 5px;
-  background-color: #C1F2B0; /* Forms and Inputs */
+  background-color: #D5F0C1; /* Forms and Inputs */
   box-sizing: border-box;
 }
 
 button {
-  background-color: #C1F2B0; /* Buttons */
-  color: #FBF6EE; /* Text Color */
+  background-color: #D5F0C1; /* Buttons */
+  color: #F9F7C9; /* Text Color */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-  background-color: #FFB534; /* Hover effect */
+  background-color: #F9F7C9; /* Hover effect */
 }
 
 table {
@@ -72,14 +72,14 @@ table {
 }
 
 th, td {
-  border: 1px solid #C1F2B0; /* Tables */
+  border: 1px solid #D5F0C1; /* Tables */
   padding: 10px;
   text-align: center;
 }
 
 th {
-  background-color: #C1F2B0; /* Tables */
-  color: #FBF6EE; /* Text Color */
+  background-color: #D5F0C1; /* Tables */
+  color: #F9F7C9; /* Text Color */
 }
 
 input {
