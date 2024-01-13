@@ -39,3 +39,24 @@ function submitOrder() {
   const mailtoLink = `mailto:Boom835@proton.me?subject=New Order&body=${encodeURIComponent(`Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nLocation: ${location}\nItems & Quantities:\n${items}`)}`;
   window.location.href = mailtoLink;
 }
+
+
+function copyOrderSummary() {
+  const orderSummary = document.getElementById('orderSummary').innerText;
+
+  // Create a temporary textarea element
+  const textarea = document.createElement('textarea');
+  textarea.value = orderSummary;
+  document.body.appendChild(textarea);
+
+  // Select and copy the text from the textarea
+  textarea.select();
+  document.execCommand('copy');
+
+  // Remove the temporary textarea
+  document.body.removeChild(textarea);
+
+  // You can provide feedback to the user, like an alert or console log
+  alert('Order Summary copied to clipboard!');
+}
+
