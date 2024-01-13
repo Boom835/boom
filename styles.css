@@ -3,8 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #80BCBD; /* Background */
-  max-width: 75%;
+  width: 75%;
   align-items: center;
+  text-align: center;
   color: #F9F7C9; /* Text Color */
 }
 
