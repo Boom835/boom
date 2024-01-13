@@ -5,7 +5,7 @@ body {
   background-color: #80BCBD; /* Background */
   align-items: center;
   text-align: center;
-  color: #F9F7C9; /* Text Color */
+  color: #4F6F52; /* Text Color */
 }
 
 hr {
@@ -16,14 +16,14 @@ hr {
 header, nav, section, form, #orderSummary {
   background-color: #AAD9BB; /* Forms and Sections */
   border-radius: 5px;
-  color: #F9F7C9; /* Text Color */
+  color: #4F6F52; /* Text Color */
   text-align: center;
   padding: 1em;
   margin: 20px;
 }
 
 nav a, #logo a {
-  color: #F9F7C9; /* Text Color */
+  color: #4F6F52; /* Text Color */
   text-decoration: none;
   margin: 0 1em;
   font-weight: bold;
@@ -83,7 +83,7 @@ th {
 }
 
 input {
-  width: 50px;
+  width: 35%;
   text-align: center;
 }
 
