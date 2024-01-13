@@ -6,50 +6,56 @@ body {
   max-width: 75%;
 }
 
-header {
+header, nav, section, form, #orderSummary {
   background-color: #4527A0;
+  border-radius: 5px;
+}
+
+header, nav, #logo, form {
+  text-align: center;
   color: #FFFFFF;
-  padding: 1em;
-  text-align: center;
-  border-radius: 5px;
 }
 
-nav {
-  background-color: #00796B;
-  padding: 0.5em;
-  text-align: center;
-  border-radius: 5px;
-}
-
-nav a {
+nav a, #logo a {
   color: #FFFFFF;
   text-decoration: none;
   margin: 0 1em;
   font-weight: bold;
 }
 
-section {
-  padding: 2em;
-  border-radius: 5px;
-}
-
-#logo {
-  text-align: center;
-  margin: 1em 0;
-}
-
 #logo a {
   color: #FFD700;
-  text-decoration: none;
   font-size: 1.5em;
-  font-weight: bold;
 }
 
-form {
-  background-color: #FFFFFF;
-  padding: 20px;
+section, form, #orderSummary {
+  padding: 2em;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
   border-radius: 5px;
-  margin: 20px;
+}
+
+button {
+  background-color: #4527A0;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00796B;
 }
 
 table {
