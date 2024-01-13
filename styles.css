@@ -1,14 +1,11 @@
-html {
-    align-items: center;
-}
-
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
+  background-color: #65B741; /* Background */
   max-width: 75%;
   align-items: center;
+  color: #FBF6EE; /* Text Color */
 }
 
 hr {
@@ -17,23 +14,23 @@ hr {
 }
 
 header, nav, section, form, #orderSummary {
-  background-color: #00796B; /* Green */
+  background-color: #C1F2B0; /* Forms and Sections */
   border-radius: 5px;
-  color: #FFD700; /* Gold */
+  color: #FBF6EE; /* Text Color */
   text-align: center;
   padding: 1em;
   margin: 20px;
 }
 
 nav a, #logo a {
-  color: #4527A0; /* Purple */
+  color: #FBF6EE; /* Text Color */
   text-decoration: none;
   margin: 0 1em;
   font-weight: bold;
 }
 
 #logo a {
-  color: #FFD700; /* Gold */
+  color: #FFB534; /* Banners */
   font-size: 1.5em;
 }
 
@@ -50,13 +47,15 @@ input, textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #4527A0; /* Purple */
+  border: 1px solid #C1F2B0; /* Forms and Inputs */
   border-radius: 5px;
+  background-color: #C1F2B0; /* Forms and Inputs */
+  box-sizing: border-box;
 }
 
 button {
-  background-color: #00796B; /* Green */
-  color: #FFD700; /* Gold */
+  background-color: #C1F2B0; /* Buttons */
+  color: #FBF6EE; /* Text Color */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -64,7 +63,7 @@ button {
 }
 
 button:hover {
-  background-color: #004C45; /* Darker Green for hover effect */
+  background-color: #FFB534; /* Hover effect */
 }
 
 table {
@@ -73,14 +72,14 @@ table {
 }
 
 th, td {
-  border: 1px solid #4527A0; /* Purple */
+  border: 1px solid #C1F2B0; /* Tables */
   padding: 10px;
   text-align: center;
 }
 
 th {
-  background-color: #00796B; /* Green */
-  color: #FFD700; /* Gold */
+  background-color: #C1F2B0; /* Tables */
+  color: #FBF6EE; /* Text Color */
 }
 
 input {
